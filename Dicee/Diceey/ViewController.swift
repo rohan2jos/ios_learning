@@ -10,10 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    // array that contains the names of the images corresponding to the numbers
     let diceArray = ["dice1", "dice2", "dice3", "dice4", "dice5", "dice6"]
     
+    // reference to the first dice image
     @IBOutlet weak var diceImageView1: UIImageView!
     
+    // reference to the second dice image
     @IBOutlet weak var diceImageView2: UIImageView!
     
     // generate 2 random numbers between 0 and 6 (6 not included)
@@ -28,6 +31,8 @@ class ViewController: UIViewController {
         updateDiceImages(random1, random2)
     }
     
+    // generate random numbers on load and change the images on the dice face to match
+    // the generated random numbers when the app is first opened
     override func viewDidLoad() {
         super.viewDidLoad()
         generateRandomNos()
@@ -46,10 +51,14 @@ class ViewController: UIViewController {
         diceImageView2.image = UIImage(named: diceArray[randomDiceIndex2])
     }
     
+    // generates random numbers when the "Roll" button is pressed and changes the images
+    // on the dice face to match the random numbers that are generated
     @IBAction func rollButtonPressed(_ sender: UIButton) {
         generateRandomNos()
     }
     
+    // generates random numbers when the Shake gesture has 'ended' and changes the images
+    // on the dice face to match the random numbers that are generated 
     override func motionEnded(_ motion: UIEventSubtype, with event: UIEvent?) {
         generateRandomNos()
     }
