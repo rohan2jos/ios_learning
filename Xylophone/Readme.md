@@ -10,6 +10,6 @@
 
 ##### The simulated Xylophone - each key generates the respective sound
 
-![8ball_base](https://user-images.githubusercontent.com/12286807/34325816-e5f2a432-e851-11e7-91f7-b10c4fae93e7.jpg)
+![xylophone_screen](https://user-images.githubusercontent.com/12286807/34325834-74813b0a-e852-11e7-83f2-81f154d1f11e.jpg)
 
 
