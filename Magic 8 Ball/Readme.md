@@ -12,12 +12,12 @@
 
 ##### 1. Random numbers generated on loaded screen
 
-![dicee_base_image](https://user-images.githubusercontent.com/12286807/34317664-60168606-e768-11e7-8ed8-7ef195a586dd.jpg)
+![8ball_base](https://user-images.githubusercontent.com/12286807/34325816-e5f2a432-e851-11e7-91f7-b10c4fae93e7.jpg)
 
 ##### 2. Button press to generate random numbers
 
-![dicee_button_pressed](https://user-images.githubusercontent.com/12286807/34317666-63094c72-e768-11e7-90ce-4971aa1399ec.jpg)
+![8ball_2](https://user-images.githubusercontent.com/12286807/34325817-e8281840-e851-11e7-888e-6f7ce66cc5b3.jpg)
 
 ##### 3. Generated random numbers after button press/shake gesture
 
-![dicee_final_screen](https://user-images.githubusercontent.com/12286807/34317667-650ca0c8-e768-11e7-8a47-ab83cf73a7ea.jpg)
+![8ball_shake](https://user-images.githubusercontent.com/12286807/34325818-e9b311f6-e851-11e7-8d8d-cbc2cccaafda.jpg)
